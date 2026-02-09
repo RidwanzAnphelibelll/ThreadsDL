@@ -1,5 +1,5 @@
 {
-  "name": "ThreadDL",
+  "name": "ThreadsDL",
   "main": "_worker.js",
   
   "scripts": {
