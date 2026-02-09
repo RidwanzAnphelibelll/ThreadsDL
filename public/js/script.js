@@ -189,7 +189,7 @@ function displayResult(data) {
     resultHTML += '<div class="author-name">';
     resultHTML += `<h3>${data.username}</h3>`;
     resultHTML += '</div>';
-    resultHTML += `<a href="https://threads.net/@${data.username}" target="_blank" rel="noopener noreferrer" class="threads-profile-btn">`;
+    resultHTML += `<a href="https://threads.net/${data.username}" target="_blank" rel="noopener noreferrer" class="threads-profile-btn">`;
     resultHTML += '<i class="fas fa-external-link-alt"></i> View Profile';
     resultHTML += '</a>';
     resultHTML += '</div></div></div>';
