@@ -525,15 +525,15 @@ body {
     background: var(--gradient-primary);
     color: white;
     border: none;
-    padding: 10px 18px;
-    border-radius: 12px;
-    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 12px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     text-decoration: none;
     box-shadow: var(--shadow-sm);
 }
