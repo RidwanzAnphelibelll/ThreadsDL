@@ -179,17 +179,17 @@ function displayResult(data) {
     
     let resultHTML = '<div class="result-header"><div class="author-info">';
     
-    if (data.username_avatar) {
-        resultHTML += `<img class="author-avatar" src="${data.username_avatar}" alt="Author Avatar" />`;
+    if (data.author_avatar) {
+        resultHTML += `<img class="author-avatar" src="${data.author_avatar}" alt="Author Avatar" />`;
     } else {
         resultHTML += '<div class="author-avatar-placeholder"><i class="fas fa-user-circle"></i></div>';
     }
     
     resultHTML += '<div class="author-details">';
     resultHTML += '<div class="author-name">';
-    resultHTML += `<h3>${data.username}</h3>`;
+    resultHTML += `<h3>${data.author}</h3>`;
     resultHTML += '</div>';
-    resultHTML += `<a href="https://threads.net/${data.username}" target="_blank" rel="noopener noreferrer" class="threads-profile-btn">`;
+    resultHTML += `<a href="https://threads.net/${data.author}" target="_blank" rel="noopener noreferrer" class="threads-profile-btn">`;
     resultHTML += '<i class="fas fa-external-link-alt"></i> View Profile';
     resultHTML += '</a>';
     resultHTML += '</div></div></div>';
